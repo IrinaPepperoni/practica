@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    cursor: default;
+}
+
+body{
+    background-color: black;
+}
+
+
+@mixin buttons{
+    background: transparent;
+    font-family: $regular;
+    border: transparent;
+    cursor: pointer;
+}
+
+
+$bold: Futura-bold;
+$regular: Futura-regular;
+
+@font-face {
+    font-family: Futura-regular;
+    src: url(/fonts/futura-bk-bt-rus-by-me-book.otf);
+}
+
+@font-face {
+    font-family: Futura-bold;
+    src: url(/fonts/futura-md-bt-rus-by-me-medium.otf);
+}

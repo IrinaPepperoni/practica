@@ -1,0 +1,48 @@
+.shop_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, max-content);
+    grid-template-rows: repeat(3, max-content);
+    align-items: end;
+    grid-row-gap: 51px;
+    grid-column-gap: 47px;
+}
+
+.lable{
+    width: 423px;
+    height: auto;
+    margin-bottom: 120px;
+    margin-top: 172px;
+}
+
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.card_img{
+    cursor: pointer;
+}
+
+.card_p{
+    font-family: $regular;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.void{
+    width: 100px;
+    height: 100px;
+    visibility: hidden;
+    // display: none;
+    
+}

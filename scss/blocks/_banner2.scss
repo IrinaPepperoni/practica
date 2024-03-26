@@ -1,0 +1,47 @@
+.banner2{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    justify-content: space-around;
+    margin-top: 300px;
+    margin-bottom: 300px;
+    
+}
+
+.banner2_text{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.banner2_img{
+    width: 700px;
+    height: auto;
+
+}
+
+.banner2_text_p{
+    font-family: $regular;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+h3{
+    font-family: $regular;
+    font-size: 70px;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+}
+
+.banner2_text_button{
+    font-family: $regular;
+    @include buttons;
+    color: white;
+    font-size: 24px;
+    text-transform: capitalize;
+    border: solid 2px;
+    border-radius: 45px;
+    padding: 24px;
+    width: fit-content;
+    margin-top: 20px;
+}

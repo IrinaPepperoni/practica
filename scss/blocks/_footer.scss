@@ -1,0 +1,81 @@
+.foot{
+    width: 100%;
+    height: max-content;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+
+}
+.footer_text{
+    display: flex;
+    flex-direction: column;
+    font-family: $bold;
+    color: white;
+
+}
+h5{
+    font-family: $bold;
+    color: white;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.footer_nav1{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 96px;
+}
+.footer_nav_container{
+    display: flex;
+}
+.footer_button{
+    font-family: $regular;
+    color: white;
+    @include buttons; 
+    text-transform: capitalize;
+    margin-top: 24px;
+    font-size: 20px;
+    cursor: pointer;
+}
+h4{
+    font-size: 48px;
+    text-transform: capitalize;
+    font-family: $bold;
+    margin-bottom: 32px;
+}
+.footer_logo{
+    width: 240px;
+    height: auto;
+}
+
+.input_button{
+    @include buttons;
+    color: black;
+    background-color: white;
+    font-size: 24px;
+    padding: 20px;
+    border-radius: 40px;
+    position: absolute;
+    transform: translateX(-75px);
+    border: none;
+    outline: solid 1px white;
+    cursor: pointer;
+}
+
+.footer_input_window{
+    color: white;
+    background-color: transparent;
+    outline: solid 1px white;
+    border: none;
+    font-size: 24px;
+    padding: 20px;
+    border-radius: 40px;
+    text-align: center;
+    width: 370px;
+    cursor: text;
+}
+
+.footer_input{
+    margin-bottom:88px ;
+}
